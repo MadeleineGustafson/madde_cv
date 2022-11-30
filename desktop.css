@@ -1,13 +1,33 @@
 @media (min-width: 900px) {
-    .header-mobile {
-        display: none;
-    
-    }
 
-    .header-desktop {
-        display: block;
-        display: flex;
-        text-align: center;
-    }
+   .hamburger {
+    display: none;
+   }
+
+   nav {
+    height: 20rem;
+    overflow: visible;
+   }
+
+   .project-section, .about-section, .education-section, .contact-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 50rem;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.projektbox{
+    display: flex;
+    flex-direction: column;
+   
   }
 
+  .myeducation, .aboutme, .contactme {
+   width: 50%;
+  }
+
+}

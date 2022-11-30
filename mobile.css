@@ -1,23 +1,97 @@
-.header-desktop {
-    display: none;
+body {
+    margin: 0;
+    background-color: pink;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.header-mobile {
+/* Header area */
+
+.header-desktop {
+    width: 100%;
+    text-align: center;
+   
+}
+
+/* Navigation menu */
+
+.navigation {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    text-align: center;
+    overflow: hidden;
+    height: 0px;
+}
+
+
+.hamburger {
+    background-color: orange;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
+
+}
+
+.dropdown {
+    background-color: orange;
     width: 100%;
-    height: 30rem;
+    height: 50%
+}
+ul {
+    margin-left:0;
 }
 
 li {
     list-style: none;
+    font-size: 30px;
+   
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Main area */
+.firstbox {
+    width: 100%;
+    height: 46rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid black;
+   
+}
+
+.project-section, .about-section, .education-section, .contact-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   height: 50rem;
+    border-bottom: 1px solid black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.myProjects {
+    width: 60%;
+    height: 10rem;
+    background-color: orange;
+    margin: 1rem;
+}
+
+footer {
+    margin-bottom: 0;
+    height: 3rem;
 }
 
 
-
-.flex { display: flex;}
-.justify-center { justify-content: center;}
-.align-center{ align-items: center;}
-.column { flex-direction: column;}

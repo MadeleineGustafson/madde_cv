@@ -5,42 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madeleine</title>
+    <script src="https://kit.fontawesome.com/4bcca7a847.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="tablet.css">
     <link rel="stylesheet" href="desktop.css">
+
+    <script src="main.js"></script>
 </head>
 <body>
-    <main>
-        <div class="header-desktop column" >
+
+    <div id="frontPage"></div>
+
+    <main id="main">
+    <div class="firstbox">
+        <div class="header-desktop " >
             <h1>Madeleine Gustafsson</h1>
             <h3>Front end developer</h3>
         </div>
 
-        <nav class="flex justify-center">
-            <ul>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Education</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-
-        <div class="header-mobile column " >
-            <h1>Madeleine Gustafsson</h1>
-            <h3>Front end developer</h3>
+      
+        <div id="hamburger" class="hamburger">
+            <i class="fa-solid fa-bars fa-xl"></i>
         </div>
+        <div id="navigation" class="navigation">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#project-section">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#about-section">About</a>
+                    </li>
+                    <li> <a href="#education-section">Education</a></li>
+                    <li>
+                        <a href="#contact-section">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+              
+            
+        </div>
+       
+
+    </div>
+       
+       
+   
     
-        <div id="project-section" class="project-section flex ">
-            <h3>Projcets</h3>
+        <div id="project-section" class="project-section ">
+            <h3>Projects</h3>
+            <div class="projectbox"></div>
+            <div class="myProjects">
+                <p>text based adventure</p>
+            </div>
+            <div class="myProjects">
+                <p>Coming soon</p>
+            </div>
+           
         </div>
-        <div id="about-section" class="about-section flex">
+        <div id="about-section" class="about-section ">
             <h3>About me</h3>
+            <div class="aboutme">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus harum qui dolores quas, nulla modi alias itaque excepturi nemo veritatis perspiciatis quis distinctio dolore velit ipsum et eius repellat? Commodi.</p>
+            </div>
         </div>
-        <div id="education-section" class="education-section flex">
+        <div id="education-section" class="education-section ">
             <h3>Education</h3>
+            <div class="myeducation">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim ad deserunt facilis, laborum vel quis velit nesciunt asperiores excepturi. Reprehenderit esse, exercitationem aut non quos cumque illo maiores veniam!</p>
+            </div>
         </div>
-        <div id="contact-section" class="contact-section flex">
+        <div id="contact-section" class="contact-section ">
             <h3>Contact me</h3>
+            <div class="contactme">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore optio quam aspernatur voluptas odit nisi eligendi iste, repudiandae, suscipit accusantium, sunt aliquid ullam saepe iure autem. Quis aliquam blanditiis facilis.</p>
+            </div>
         </div>
 
         <footer> Madeleine Gustafsson</footer>
