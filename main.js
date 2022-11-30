@@ -1,10 +1,35 @@
 window.addEventListener("DOMContentLoaded",main);
 
 function main() {
- 
+    startFrontpage();
     getDropdown();
 }
 
+function startFrontpage() {
+    const main=document.getElementById("main");
+    //main.style.visibility="hidden";
+    main.style.display="none";
+
+    const startTitle = document.createElement("h1");
+    startTitle.textContent="Madeleine Gustafsson";
+    startTitle.classList="startTitle";
+    const enterButton=document.createElement("button");
+    enterButton.textContent="Enter";
+    enterButton.classList="button";
+
+    enterButton.onclick=getMainPage;
+
+    document.getElementById("frontPage").appendChild(startTitle);
+    document.getElementById("frontPage").appendChild(enterButton);
+   
+}
+
+function getMainPage() {
+    const main=document.getElementById("main");
+    document.getElementById("frontPage").style.display="none";
+    //main.style.visibility="visible";
+    main.style.display="inline";
+}
 
 function getDropdown () {
     const hamburgerMenu = document.getElementById("hamburger");

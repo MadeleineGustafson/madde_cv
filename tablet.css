@@ -1,7 +1,11 @@
 @media (min-width: 700px) {
 
+    .frontPage {
+        height: 75rem;
+    }
+
     .firstbox {
-        height: 71rem;
+        height: 74rem;
     }
 
     .title-tablet {

@@ -42,13 +42,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30rem;
+    height: 31rem;
     
+  }
+
+  .frontPage {
+    height: 50rem;
   }
  
 
   .desktop-list {
-   font-size: 3rem;
+   font-size: 2.5rem;
+   font-family: 'archivo black';
    
   }
 
