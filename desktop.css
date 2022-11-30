@@ -8,7 +8,14 @@
     height: 20rem;
     overflow: visible;
    }
+    .title-desktop {
+    font-size: 5rem;
 
+    }
+
+    .firstbox-desktop {
+        height: 50rem;
+    }
    .project-section, .about-section, .education-section, .contact-section {
     text-align: center;
     display: flex;
@@ -31,16 +38,23 @@
   }
 
   .rotate {
-    transform: rotate(-90deg);
-   
+    transform: rotate(-90deg); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+    
   }
+ 
 
   .desktop-list {
-    margin: 5rem;
+   font-size: 3rem;
+   
   }
 
   li:hover {
     transform: rotate(+90deg);
+    transition:1000ms;
 
   }
 

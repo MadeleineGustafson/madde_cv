@@ -1,7 +1,11 @@
-@media (min-width: 600px) {
+@media (min-width: 700px) {
 
     .firstbox {
-        height: 74rem;
+        height: 71rem;
+    }
+
+    .title-tablet {
+        font-size: 4.5rem;
     }
   
   }
