@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madeleine</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
 </head>
 <body>
     <main>
-        <div>
+        <div class="header-desktop column" >
             <h1>Madeleine Gustafsson</h1>
             <h3>Front end developer</h3>
         </div>
 
-        <nav>
+        <nav class="flex justify-center">
             <ul>
                 <li>Projects</li>
                 <li>About</li>
@@ -22,13 +24,26 @@
                 <li>Contact</li>
             </ul>
         </nav>
+
+        <div class="header-mobile column " >
+            <h1>Madeleine Gustafsson</h1>
+            <h3>Front end developer</h3>
+        </div>
     
-        <div id="project-section"></div>
-        <div id="about-section"></div>
-        <div id="education-section"></div>
-        <div id="contact-section"></div>
-        
-        <footer></footer>
+        <div id="project-section" class="project-section flex ">
+            <h3>Projcets</h3>
+        </div>
+        <div id="about-section" class="about-section flex">
+            <h3>About me</h3>
+        </div>
+        <div id="education-section" class="education-section flex">
+            <h3>Education</h3>
+        </div>
+        <div id="contact-section" class="contact-section flex">
+            <h3>Contact me</h3>
+        </div>
+
+        <footer> Madeleine Gustafsson</footer>
     </main>
     
 </body>
