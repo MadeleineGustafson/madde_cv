@@ -30,4 +30,23 @@
    width: 50%;
   }
 
+  .rotate {
+    transform: rotate(-90deg);
+   
+  }
+
+  .desktop-list {
+    margin: 5rem;
+  }
+
+  li:hover {
+    transform: rotate(+90deg);
+
+  }
+
+  a:hover {
+    color: orange;
+    font-weight: bold;
+  }
+
 }
