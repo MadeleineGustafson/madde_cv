@@ -10,7 +10,6 @@
    }
     .title-desktop {
     font-size: 5rem;
-
     }
 
     .firstbox-desktop {
@@ -68,4 +67,9 @@
     font-weight: bold;
   }
 
+  .myProjects2, .myProjects {
+    width: 60%;
+    height: 15rem;
+
+}
 }
