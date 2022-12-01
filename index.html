@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/4bcca7a847.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=La+Belle+Aurore&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="tablet.css">
@@ -21,7 +21,9 @@
     <div id="frontPage" class="frontPage"></div>
 
     <main id="main">
-    <div class="firstbox firstbox-desktop">
+        
+    <div id="firstbox" class="firstbox firstbox-desktop">
+        <i id="lightbulb" class="fa-solid fa-cloud-sun"></i>
         <div class="header-desktop " >
             <h1 class="title title-desktop title-tablet">Madeleine Gustafsson</h1>
             <h3 class="undertitle">Front end developer</h3>
@@ -42,7 +44,7 @@
                         <a class="desktop-list" href="#about-section">About</a>
                     </li>
                     <li > 
-                        <a class="desktop-list" href="#education-section">Education</a>
+                        <a class="desktop-list" href="#skills-section">Skills</a>
                     </li>
                     <li >
                         <a class="desktop-list" href="#contact-section">Contact</a>
@@ -61,49 +63,79 @@
     
         <div id="project-section" class="project-section ">
             <h3 class="boxTitle">Projects</h3>
+            <div class="decoration"></div>
 
             <div class="projectbox"></div>
-            <div class="myProjects">
-               <div class="aproject"></div>
-            </div>
+            <div class="myProjects"></div>
             <a  class="projecttext" href="https://madeleinegustafson.github.io/laboration1/">Text based adventure</a>
             <a href="https://github.com/MadeleineGustafson"> <i class="fa-brands fa-github"></i></a>
            
-            <div class="myProjects2">
-               
-            </div>
-            <a  class="projecttext" href="">Coming soon</a>
-            <i class="fa-brands fa-github"></i>
-           
+            <div class="myProjects2"></div>
+            <a  class="projecttext" href="">Interactive resume</a>
+            <a href=""> <i class="fa-brands fa-github"></i></a> 
         </div>
+
         <div id="about-section" class="about-section ">
-            <h3 class="boxTitle">About me</h3>
+            <h3 class="boxTitle">About</h3>
+            <div class="decoration"></div>
             <div class="aboutme">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus harum qui dolores quas, nulla modi alias itaque excepturi nemo veritatis perspiciatis quis distinctio dolore velit ipsum et eius repellat? Commodi.</p>
-            </div>
-        </div>
-        <div id="education-section" class="education-section ">
-            <h3 class="boxTitle">Education</h3>
-            <div class="myeducation">
-              <span><h4>Medieinsitutet</h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia corporis voluptatem non dignissimos officiis culpa doloribus! Earum neque impedit incidunt explicabo eos corrupti consectetur itaque fugit ut commodi, dolorum corporis.</p></span>
-              <span>
-                <h4>Linneuniversitetet</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis quasi, perferendis rem suscipit iusto expedita omnis maiores beatae velit unde sequi, provident dicta nesciunt. Ullam ea amet ratione soluta.</p>
-              </span>
-            </div>
-        </div>
-        <div id="contact-section" class="contact-section ">
-            <h3 class="boxTitle">Contact me</h3>
-            <div class="contactme">
-               <a href="mailto:madeleinegu@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
-               <p>e-mail</p>
-               <a href="https://www.linkedin.com/in/madeleine-gustafsson-517bb61a4/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-               <p>Linkedin</p>
+                <div class="whoami"></div>
+                <h3>Who am I?</h4>
+                <p>Front end developer student based in Gothenburg who loves to create. Driven by solving problems and learning new things.</p>
+                <p>Interests other than coding: <br> Skiing, sports, nature, dogs</p>
+                <div class="education"></div>
+
+                <h3>Education</h3>
+                <span>
+                    <h4>Medieinsitutet Gothenburg</h4>
+                    <p>2022-2024</p>
+                    <p>Front end development</p>
+                </span>
+                <span>
+                    <h4>Linneuniversitetet Kalmar</h4>
+                    <p>2017-2020</p>
+                    <p> Bachelors degree in business administration</p>
+                </span>
             </div>
         </div>
 
-        <footer> Madeleine Gustafsson</footer>
+        <div id="skills-section" class="skills-section ">
+            <h3 class="boxTitle">Skills</h3>
+            <div class="decoration"></div>
+        
+            <div class="myskills">
+                <span class="development">
+                    <h4>Development</h4>
+                    <p>HTML</p><p>CSS</p><p>JavaScript</p>
+                </span>
+                <span class="other">
+                    <h4>Other</h4>
+                    <p>Photoshop</p> <p>InDesing</p> <p>Figma</p> <p>ProCreate</p>
+                </span>
+            </div>
+        </div>
+
+        <div id="contact-section" class="contact-section ">
+            <h3 class="boxTitle">Contact</h3>
+            <div class="decoration"></div>
+            <div class="contactme">
+                <h3>Send me a message!</h3>
+                <div class="contactbox">
+               <div class="connect">
+                <a href="mailto:madeleinegu@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a> 
+                <p>e-mail</p>
+               </div>
+                   <div class=" connect">
+                    <a href="https://www.linkedin.com/in/madeleine-gustafsson-517bb61a4/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+               <p>Linkedin</p>
+                   </div>
+               
+                </div>
+               
+            </div>
+        </div>
+
+        <footer> Madeleine Gustafsson 2022</footer>
     </main>
     
 </body>

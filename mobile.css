@@ -1,17 +1,25 @@
+:root { --blue:rgb(32, 38, 62)}
 
 html {
     scroll-behavior: smooth;
-   
   }
 
 body {
     margin: 0;
-    background-color: rgb(43, 43, 43);
-    color: white;
+    background-color: var(--blue);
+    color: white ;
     font-family: 'Raleway';
     font-family: 'lexend';
     
 }
+/* Dark mode*/
+
+.switch{
+    background-color: white;
+    color: var(--blue);
+}
+
+/* Front page */
 
 .frontPage {
     display: flex;
@@ -55,7 +63,17 @@ main {
     
 }
 
+@keyframes fadein {
+    /* Fade in animation */
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 /* Header area */
+#lightbulb {
+    z-index: 100;
+    color: white;
+}
 
 .header-desktop {
     width: 100%;
@@ -78,12 +96,12 @@ main {
    
 }
 
-@keyframes fadein {
-    /* Fade in animation */
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
 
+
+.undertitle {
+    font-family: 'archivo black';
+    color:white;
+}
 /* Navigation menu */
 
 .navigation {
@@ -147,8 +165,9 @@ a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid black;
-    background-image: url(./images/background.png);
+    border-bottom: 1px solid white;
+    background-color: var(--blue);
+    background-image: url(./images/background3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -166,13 +185,13 @@ a {
     0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
-.project-section, .about-section, .education-section, .contact-section {
+.project-section, .about-section, .skills-section, .contact-section {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-   height: 50rem;
-    border-bottom: 1px solid black;
+    height: 50rem;
+    border-bottom: 1px solid white;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -183,22 +202,50 @@ a {
     margin: 1rem;
     background-image: url(./images/textbased_adv.png);
     background-size: cover;
+    border-radius: 3rem;
 }
 
 .myProjects2 {
     width: 80%;
     height: 12rem;
     margin: 1rem;
-    background-color: gray;
+    background-image: url(./images/resume.png);
+    background-size: cover;
+    border-radius: 3rem;
 }
 .projecttext {
     font-size: 1rem;
     padding: 1rem;
 }
 
+.education {
+    margin-top: 4rem;
+}
+
+.contactbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.decoration {
+    width: 20rem;
+    height: 0.2rem;
+    background-color: plum;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fa-linkedin, .fa-envelope  {
+    color: white;
+}
+
 footer {
     margin-bottom: 0;
     height: 3rem;
+    text-align: center;
 }
 
 

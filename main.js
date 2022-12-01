@@ -3,8 +3,9 @@ window.addEventListener("DOMContentLoaded",main);
 function main() {
     startFrontpage();
     getDropdown();
+    getLightMode();
 }
-
+/** Function that shows front page with button */
 function startFrontpage() {
     const main=document.getElementById("main");
     //main.style.visibility="hidden";
@@ -24,12 +25,15 @@ function startFrontpage() {
    
 }
 
+/** Function that reveals main page */
 function getMainPage() {
     const main=document.getElementById("main");
     document.getElementById("frontPage").style.display="none";
     //main.style.visibility="visible";
     main.style.display="inline";
 }
+
+/** Function that creates dropdown menu */
 
 function getDropdown () {
     const hamburgerMenu = document.getElementById("hamburger");
@@ -39,4 +43,16 @@ function getDropdown () {
 function toggleMenu() {
     const nav = document.querySelector('nav');
     nav.classList.toggle('dropdown');
+}
+
+/** Function with button that toggle between light and dark mode */
+
+function getLightMode () {
+    const light = document.getElementById("lightbulb");
+    light.addEventListener("click", toggleLight)
+}
+
+function toggleLight() {
+    const body = document.querySelector('body');
+    body.classList.toggle('switch');
 }

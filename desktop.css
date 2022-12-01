@@ -8,6 +8,7 @@
     height: 20rem;
     overflow: visible;
    }
+   
     .title-desktop {
     font-size: 5rem;
     }
@@ -15,15 +16,35 @@
     .firstbox-desktop {
         height: 50rem;
     }
-   .project-section, .about-section, .education-section, .contact-section {
+   .project-section, .about-section, .skills-section, .contact-section {
     text-align: center;
     display: flex;
     align-items: center;
-    height: 50rem;
+    height: 54rem;
     flex-direction: column;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+.myskills {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+}
+
+
+.contactbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
 }
 
 .projektbox{
@@ -65,6 +86,9 @@
   a:hover {
     color: orange;
     font-weight: bold;
+  }
+  i:hover {
+    color: orange;
   }
 
   .myProjects2, .myProjects {
