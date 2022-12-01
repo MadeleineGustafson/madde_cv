@@ -17,13 +17,12 @@
 
     .myProjects {
         width: 20rem;
-        height:20rem;
-       
+       height:20rem; 
         border-radius: 1rem;
     }
 
     .navigation {
-        height: 30rem;
+        height: 100%;
     }
     
     .myProjects2 {

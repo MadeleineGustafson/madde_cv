@@ -13,9 +13,9 @@ body {
     height: 100%; 
 }
 
-.container {
+/*.container {
     height: 500%;
-}
+}*/
 
 /* Front page */
 
@@ -118,7 +118,7 @@ h3,h4 {
 
 .navigation {
     width: 100%;
-   height: 65%;
+    height: 100%;
 }
 
 nav {
@@ -142,7 +142,7 @@ nav {
 
 .dropdown {
     width: 100%;
-    height: 72%;
+    height: 100%;
 }
 
 ul {
@@ -152,7 +152,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    height: 20rem;
+    /*height: 20rem;*/
 }
 
 a {
@@ -166,7 +166,7 @@ a {
 /* Main area */
 
 .firstbox {
-    height: 20%;
+   height: 50rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -200,7 +200,7 @@ a {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-top: 3rem;
-    height: 20%;
+    /*height: 20%;*/
     margin-bottom: 3rem;
 }
 
