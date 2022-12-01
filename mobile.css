@@ -71,8 +71,14 @@ main {
 }
 
 /* Header area */
+
+.sun {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
 #lightbulb {
-    z-index: 100;
+    z-index: 1000;
     color: white;
     margin-top: 2rem;
     
