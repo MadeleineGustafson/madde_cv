@@ -27,7 +27,7 @@ body {
     height: 60rem;
     background-color: white;
     background-image: url(./images/background.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
