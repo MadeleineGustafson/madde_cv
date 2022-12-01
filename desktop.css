@@ -1,5 +1,9 @@
 @media (min-width: 900px) {
 
+  .frontPage-desktop {
+    height: 60rem;
+  }
+
    .hamburger {
     display: none;
    }
@@ -13,19 +17,31 @@
     font-size: 5rem;
     }
 
-    .firstbox-desktop {
-        height: 50rem;
+    .firstbox {
+        height: 60rem;
     }
+
    .project-section, .about-section, .skills-section, .contact-section {
     text-align: center;
     display: flex;
     align-items: center;
-    height: 54rem;
+    height: 55rem;
     flex-direction: column;
     border-bottom: 1px solid white;
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+.project-section {
+  margin-bottom: 2rem;
+  height:55 ;
+}
+
+.projectbox {
+  display: flex;
+  flex-direction: row;
+}
+
 
 .myskills {
   display: flex;
@@ -47,15 +63,16 @@
   margin-top: 2rem;
 }
 
-.projektbox{
-    display: flex;
-    flex-direction: column;
-   
-  }
+
+
 
   .myeducation, .aboutme, .contactme {
    width: 50%;
   }
+
+  .other {
+    margin-top: 0rem;
+}
 
   .rotate {
     transform: rotate(-90deg); 
@@ -65,11 +82,6 @@
     height: 31rem;
     
   }
-
-  .frontPage {
-    height: 50rem;
-  }
- 
 
   .desktop-list {
    font-size: 2.5rem;
@@ -92,8 +104,11 @@
   }
 
   .myProjects2, .myProjects {
-    width: 60%;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
+    
 
 }
+
+
 }

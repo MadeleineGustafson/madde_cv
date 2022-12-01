@@ -7,8 +7,8 @@
     <title>Madeleine</title>
     <script src="https://kit.fontawesome.com/4bcca7a847.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=La+Belle+Aurore&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="tablet.css">
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <div id="frontPage" class="frontPage"></div>
+    <div id="frontPage" class="frontPage frontPage-desktop"></div>
 
     <main id="main">
         
@@ -40,12 +40,13 @@
                     <li >
                         <a class="desktop-list" href="#project-section">Projects</a>
                     </li>
-                    <li >
-                        <a class="desktop-list" href="#about-section">About</a>
-                    </li>
                     <li > 
                         <a class="desktop-list" href="#skills-section">Skills</a>
                     </li>
+                    <li >
+                        <a class="desktop-list" href="#about-section">About</a>
+                    </li>
+                   
                     <li >
                         <a class="desktop-list" href="#contact-section">Contact</a>
                     </li>
@@ -64,38 +65,52 @@
         <div id="project-section" class="project-section ">
             <h3 class="boxTitle">Projects</h3>
             <div class="decoration"></div>
-
-            <div class="projectbox"></div>
-            <div class="myProjects"></div>
-            <a  class="projecttext" href="https://madeleinegustafson.github.io/laboration1/">Text based adventure</a>
-            <a href="https://github.com/MadeleineGustafson"> <i class="fa-brands fa-github"></i></a>
+            <div class="projectbox">
+             
+                  <div class="projectdiv">
+                    <div class="myProjects"></div>
+                    <a  class="projecttext" href="https://madeleinegustafson.github.io/laboration1/">Text based adventure</a>
+                    <a href="https://github.com/MadeleineGustafson"> <i class="fa-brands fa-github"></i></a>
+                </div>
+               
            
-            <div class="myProjects2"></div>
-            <a  class="projecttext" href="">Interactive resume</a>
-            <a href=""> <i class="fa-brands fa-github"></i></a> 
+           
+            <div class="projectdiv">
+                <div class="myProjects2"></div>
+                <a  class="projecttext" href="">Interactive resume</a>
+           
+                <a href=""> <i class="fa-brands fa-github"></i></a> 
+            </div>
+           
+            </div>
+            
         </div>
 
         <div id="about-section" class="about-section ">
             <h3 class="boxTitle">About</h3>
             <div class="decoration"></div>
             <div class="aboutme">
-                <div class="whoami"></div>
-                <h3>Who am I?</h4>
-                <p>Front end developer student based in Gothenburg who loves to create. Driven by solving problems and learning new things.</p>
-                <p>Interests other than coding: <br> Skiing, sports, nature, dogs</p>
-                <div class="education"></div>
+                <div class="whoami">
+                    <h3>Who am I?</h4>
+                        <p>Front end developer student based in Gothenburg who loves to create. Driven by solving problems and learning new things.</p>
+                        <p>Interests other than coding: <br> Skiing, sports, nature, dogs</p>
+                </div>
+                
+                <div class="education">
+                    <h3>Education</h3>
+                    <span>
+                        <h4>Medieinsitutet Gothenburg</h4>
+                        <p>2022-2024</p>
+                        <p>Front end development</p>
+                    </span>
+                    <span>
+                        <h4>Linneuniversitetet Kalmar</h4>
+                        <p>2017-2020</p>
+                        <p> Bachelors degree in business administration</p>
+                    </span>
+                </div>
 
-                <h3>Education</h3>
-                <span>
-                    <h4>Medieinsitutet Gothenburg</h4>
-                    <p>2022-2024</p>
-                    <p>Front end development</p>
-                </span>
-                <span>
-                    <h4>Linneuniversitetet Kalmar</h4>
-                    <p>2017-2020</p>
-                    <p> Bachelors degree in business administration</p>
-                </span>
+               
             </div>
         </div>
 
@@ -108,10 +123,13 @@
                     <h4>Development</h4>
                     <p>HTML</p><p>CSS</p><p>JavaScript</p>
                 </span>
-                <span class="other">
-                    <h4>Other</h4>
-                    <p>Photoshop</p> <p>InDesing</p> <p>Figma</p> <p>ProCreate</p>
-                </span>
+                <div class="other" > 
+                    <span>
+                        <h4>Other</h4>
+                        <p>Photoshop</p> <p>InDesign</p> <p>Figma</p> <p>ProCreate</p>
+                    </span>
+                </div>
+                
             </div>
         </div>
 

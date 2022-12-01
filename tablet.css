@@ -1,5 +1,8 @@
 @media (min-width: 700px) {
 
+    .hamburger {
+        color: white;
+    }
     .frontPage {
         height: 75rem;
     }
@@ -8,8 +11,36 @@
         height: 74rem;
     }
 
+    .myProjects {
+        width: 20rem;
+        height:20rem;
+       
+        border-radius: 1rem;
+    }
+    
+    .myProjects2 {
+        width: 20rem;
+        height: 20rem;
+       
+        border-radius: 1rem;
+    }
+
     .title-tablet {
         font-size: 4.5rem;
+    }
+    .aboutme {
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .whoami, .education {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
     }
   
   }

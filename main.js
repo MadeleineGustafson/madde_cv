@@ -55,4 +55,5 @@ function getLightMode () {
 function toggleLight() {
     const body = document.querySelector('body');
     body.classList.toggle('switch');
+
 }

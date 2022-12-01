@@ -8,15 +8,36 @@ body {
     margin: 0;
     background-color: var(--blue);
     color: white ;
-    font-family: 'Raleway';
-    font-family: 'lexend';
+    font-family: 'Nanum gothic';
     
 }
 /* Dark mode*/
 
-.switch{
-    background-color: white;
+.switch {
+    background-color: white ;
     color: var(--blue);
+   
+}
+
+.switch a {
+    color: var(--blue);
+}
+
+ .switch .fa-envelope {
+    color: var(--blue);
+        
+}
+
+.switch .fa-linkedin {
+    color: var(--blue);
+}
+
+.switch  .fa-github {
+    color: var(--blue);
+}
+
+#color {
+   color: var(--blue);
 }
 
 /* Front page */
@@ -26,7 +47,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 50rem;
+    height: 60rem;
     background-color: white;
     background-image: url(./images/background.png);
     background-size: cover;
@@ -96,7 +117,9 @@ main {
    
 }
 
-
+h3,h4 {
+    font-family: 'archivo black';
+}
 
 .undertitle {
     font-family: 'archivo black';
@@ -153,7 +176,7 @@ a {
     text-decoration: none;
     color:white;
     font-size: 2rem;
-    font-family: 'lexend';
+    font-family: 'Nanum gothic';
     text-transform: uppercase;
     
 }
@@ -166,7 +189,7 @@ a {
     flex-direction: column;
     align-items: center;
     border-bottom: 1px solid white;
-    background-color: var(--blue);
+    background-color:var(--blue);
     background-image: url(./images/background3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,6 +199,7 @@ a {
 .boxTitle {
     font-size: 2rem;
     text-transform: uppercase;
+    font-family: 'Archivo black';
     text-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -196,22 +220,34 @@ a {
     padding-right: 1.5rem;
 }
 
+.projectbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 .myProjects {
-    width: 80%;
+    width: 12rem;
     height:12rem;
     margin: 1rem;
     background-image: url(./images/textbased_adv.png);
     background-size: cover;
-    border-radius: 3rem;
+    background-position: fixed;
+    border-radius: 1rem;
 }
 
 .myProjects2 {
-    width: 80%;
+    width: 12rem;
     height: 12rem;
     margin: 1rem;
-    background-image: url(./images/resume.png);
+    background-image: url(./images/resume2.png);
     background-size: cover;
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 .projecttext {
     font-size: 1rem;
@@ -231,21 +267,27 @@ a {
 }
 
 .decoration {
-    width: 20rem;
+    width: 5rem;
     height: 0.2rem;
-    background-color: plum;
-    border-radius: 1rem;
+    background-color: orangered;
     margin-bottom: 1rem;
 }
 
-.fa-linkedin, .fa-envelope  {
+
+.other {
+    margin-top: 3rem;
+}
+
+.fa-envelope, .fa-linkedin, .fa-github {
     color: white;
 }
 
+
 footer {
     margin-bottom: 0;
-    height: 3rem;
+    height: 2rem;
     text-align: center;
+    padding: 1rem;
 }
 
 
