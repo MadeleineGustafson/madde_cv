@@ -8,6 +8,10 @@
         height: 75rem;
     }
 
+    .firstbox {
+        height: 80rem;
+    }
+
     #lightbulb, .fa-solid fa-cloud-sun {
         z-index: 1000;
         color: white;
