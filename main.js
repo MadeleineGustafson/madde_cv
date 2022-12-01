@@ -8,7 +8,6 @@ function main() {
 /** Function that shows front page with button */
 function startFrontpage() {
     const main=document.getElementById("main");
-    //main.style.visibility="hidden";
     main.style.display="none";
 
     const startTitle = document.createElement("h1");
@@ -29,11 +28,10 @@ function startFrontpage() {
 function getMainPage() {
     const main=document.getElementById("main");
     document.getElementById("frontPage").style.display="none";
-    //main.style.visibility="visible";
     main.style.display="inline";
 }
 
-/** Function that creates dropdown menu */
+/** Functions that creates dropdown menu */
 
 function getDropdown () {
     const hamburgerMenu = document.getElementById("hamburger");

@@ -1,4 +1,4 @@
-@media (min-width: 720px) {
+@media (min-width: 700px) {
 
     .hamburger {
         color: white;
@@ -13,6 +13,10 @@
        
         border-radius: 1rem;
     }
+
+    .navigation {
+        height: 30rem;
+    }
     
     .myProjects2 {
         width: 20rem;
@@ -22,7 +26,7 @@
     }
 
     .title-tablet {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .aboutme {
         display: flex;
