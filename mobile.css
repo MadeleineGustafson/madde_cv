@@ -13,9 +13,6 @@ body {
    
 }
 
-/*.container {
-    height: 500%;
-}*/
 
 /* Front page */
 
@@ -130,7 +127,6 @@ nav {
     z-index: 20;
 }
 
-
 .hamburger {
     width: 3rem;
     height: 3rem;
@@ -152,7 +148,7 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    /*height: 20rem;*/
+   
 }
 
 a {
@@ -166,12 +162,11 @@ a {
 /* Main area */
 
 .firstbox {
-   height: 50rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     background-image: url(./images/background_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -200,7 +195,6 @@ a {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-top: 3rem;
-    /*height: 20%;*/
     margin-bottom: 3rem;
 }
 
@@ -216,7 +210,6 @@ a {
     display: flex;
     flex-direction: column;
   }
-
 
 .myProjects {
     width: 15rem;

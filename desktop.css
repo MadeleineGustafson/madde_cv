@@ -13,7 +13,7 @@
     background-attachment: fixed;
 }
 
-#lightbulb {
+  #lightbulb {
   z-index: 1000;
   color: white;
   margin-top: 3rem;
@@ -34,10 +34,10 @@
     }
 
     .firstbox {
-       /*height: 20%; */
-       display: flex;
-       flex-direction: column;
-       background-image: url(./images/background3.png);
+      height: 60rem;
+      display: flex;
+      flex-direction: column;
+      background-image: url(./images/background3.png);
     }
 
    .project-section, .about-section, .skills-section, .contact-section {
@@ -112,8 +112,8 @@
   }
 
   .myProjects2, .myProjects {
-    width: 25rem;
-    height: 25rem;
+   width: 25rem;
+  height: 25rem;
     
 }
 
