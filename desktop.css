@@ -1,8 +1,17 @@
 @media (min-width: 900px) {
 
-  .frontPage-desktop {
+  .frontPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 60rem;
-  }
+    background-color: white;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
    .hamburger {
     display: none;
