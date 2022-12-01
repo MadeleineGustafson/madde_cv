@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
   }
 
 body {
@@ -9,35 +10,11 @@ body {
     background-color: var(--blue);
     color: white ;
     font-family: 'Nanum gothic';
-    
-}
-/* Dark mode*/
-
-.switch {
-    background-color: white ;
-    color: var(--blue);
-   
+    height: 100%; 
 }
 
-.switch a {
-    color: var(--blue);
-}
-
- .switch .fa-envelope {
-    color: var(--blue);
-        
-}
-
-.switch .fa-linkedin {
-    color: var(--blue);
-}
-
-.switch  .fa-github {
-    color: var(--blue);
-}
-
-#color {
-   color: var(--blue);
+.container {
+    height: 500%;
 }
 
 /* Front page */
@@ -76,6 +53,8 @@ body {
     color: white;
 }
 
+/*Main page */
+
 main {
     display: flex;
     flex-direction: column;
@@ -94,6 +73,7 @@ main {
 #lightbulb {
     z-index: 100;
     color: white;
+    
 }
 
 .header-desktop {
@@ -125,11 +105,12 @@ h3,h4 {
     font-family: 'archivo black';
     color:white;
 }
+
 /* Navigation menu */
 
 .navigation {
     width: 100%;
-   height: 50%;
+   height: 55%;
 }
 
 nav {
@@ -142,18 +123,15 @@ nav {
 
 
 .hamburger {
-    /* background-color: orange; */
     width: 3rem;
     height: 3rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .dropdown {
-   /* background-color: orange; */
     width: 100%;
     height: 70%
 }
@@ -168,28 +146,22 @@ ul {
     height: 20rem;
 }
 
-li {
-    /* padding: 0.5rem; */
-}
-
 a {
     text-decoration: none;
     color:white;
     font-size: 2rem;
     font-family: 'Nanum gothic';
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
 /* Main area */
+
 .firstbox {
-    height: 60rem;
+    height: 20%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid white;
-    background-color:var(--blue);
     background-image: url(./images/background3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,13 +185,18 @@ a {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    height: 50rem;
-    border-bottom: 1px solid white;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    margin-top: 3rem;
+    height: 20%;
+    margin-bottom: 3rem;
 }
 
+.contact-section {
+    height: 15%;
+}
 .projectbox {
     display: flex;
     flex-direction: column;
@@ -232,7 +209,7 @@ a {
 
 
 .myProjects {
-    width: 12rem;
+    width: 15rem;
     height:12rem;
     margin: 1rem;
     background-image: url(./images/textbased_adv.png);
@@ -242,10 +219,10 @@ a {
 }
 
 .myProjects2 {
-    width: 12rem;
+    width: 15rem;
     height: 12rem;
     margin: 1rem;
-    background-image: url(./images/resume2.png);
+    background-image: url(./images/resume5.png);
     background-size: cover;
     border-radius: 1rem;
 }
@@ -254,8 +231,15 @@ a {
     padding: 1rem;
 }
 
-.education {
-    margin-top: 4rem;
+.myskills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.aboutme {
+    width: 100%;
+   
 }
 
 .contactbox {
@@ -263,31 +247,31 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 20rem;
 
 }
 
 .decoration {
-    width: 5rem;
+    width: 15rem;
     height: 0.2rem;
     background-color: orangered;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
-
-.other {
-    margin-top: 3rem;
-}
+/*Icons */
 
 .fa-envelope, .fa-linkedin, .fa-github {
     color: white;
 }
 
+/*Footer*/
 
 footer {
     margin-bottom: 0;
-    height: 2rem;
+    height: 1rem;
     text-align: center;
     padding: 1rem;
+    
 }
 
 
