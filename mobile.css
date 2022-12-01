@@ -170,7 +170,7 @@ a {
     background-image: url(./images/background_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+   /* background-attachment: fixed; */
    
 }
 .boxTitle {

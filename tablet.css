@@ -1,3 +1,4 @@
+
 @media (min-width: 700px) {
 
     .hamburger {
@@ -12,12 +13,11 @@
         color: white;
         margin-top: 2rem;
         text-align: right;
-        
     }
 
     .myProjects {
         width: 20rem;
-       height:20rem; 
+        height:20rem; 
         border-radius: 1rem;
     }
 
