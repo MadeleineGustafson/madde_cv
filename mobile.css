@@ -1,8 +1,7 @@
 :root { --blue:rgb(32, 38, 62)}
 
 html {
-    scroll-behavior: smooth;
-   
+    scroll-behavior: smooth; 
   }
 
 body {
@@ -12,7 +11,6 @@ body {
     font-family: 'Nanum gothic';
 }
 
-
 /* Front page */
 
 .frontPage {
@@ -20,7 +18,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 60rem;
+    height: 55rem;
     background-color: white;
     background-image: url(./images/background.png);
     background-size: cover;
@@ -96,7 +94,6 @@ main {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
-   
 }
 
 .undertitle {
@@ -107,7 +104,6 @@ main {
 h3,h4 {
     font-family: 'archivo black';
 }
-
 
 /* Navigation menu */
 
@@ -146,7 +142,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-   
 }
 
 a {
@@ -203,7 +198,7 @@ a {
 .projectdiv {
     display: flex;
     flex-direction: column;
-  }
+}
 
 .myProjects {
     width: 15rem;

@@ -1,10 +1,12 @@
 window.addEventListener("DOMContentLoaded",main);
 
+/** Start of website */
 function main() {
     startFrontpage();
     getDropdown();
     getLightMode();
 }
+
 /** Function that shows front page with button */
 function startFrontpage() {
     const main=document.getElementById("main");
@@ -13,12 +15,12 @@ function startFrontpage() {
     const startTitle = document.createElement("h1");
     startTitle.textContent="Madeleine Gustafsson";
     startTitle.classList="startTitle";
+
     const enterButton=document.createElement("button");
     enterButton.textContent="Enter";
     enterButton.classList="button";
-
-    enterButton.onclick=getMainPage;
-
+    enterButton.addEventListener("click", getMainPage);
+   
     document.getElementById("frontPage").appendChild(startTitle);
     document.getElementById("frontPage").appendChild(enterButton);
    
@@ -32,7 +34,6 @@ function getMainPage() {
 }
 
 /** Functions that creates dropdown menu */
-
 function getDropdown () {
     const hamburgerMenu = document.getElementById("hamburger");
     hamburgerMenu.addEventListener("click", toggleMenu);
@@ -44,7 +45,6 @@ function toggleMenu() {
 }
 
 /** Function with button that toggle between light and dark mode */
-
 function getLightMode () {
     const light = document.getElementById("lightbulb");
     light.addEventListener("click", toggleLight)
