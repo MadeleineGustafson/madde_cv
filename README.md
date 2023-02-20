@@ -1,5 +1,5 @@
 # Interactive resume
 
-A website about me, my projects, experience and contact information
+A school project where I had to build an interactive CV using html, css and JavaScript
 
 [Click here for link](https://madeleinegustafson.github.io/madde_cv/)
